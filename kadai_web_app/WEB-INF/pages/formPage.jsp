@@ -8,16 +8,16 @@
     <body>
         <%
         // Servletからのデータを取得
-        String userName = (String) request.getAttribute("userName");
-        String userEmail = (String) request.getAttribute("userEmail");
-        String userAddress = (String) request.getAttribute("userAddress");
-        String userPhoneNumber = (String) request.getAttribute("userPhoneNumber");
+        String name = (String) request.getAttribute("name");
+        String email = (String) request.getAttribute("email");
+        String address = (String) request.getAttribute("address");
+        String phoneNumber = (String) request.getAttribute("phoneNumber");
 
         // データが存在しない場合は空文字に置き換え
-        userName = Objects.toString(userName, "");
-        userEmail = Objects.toString(userEmail, "");
-        userAddress = Objects.toString(userAddress, "");
-        userPhoneNumber = Objects.toString(userPhoneNumber, "");
+        name = Objects.toString(name, "");
+        email = Objects.toString(email, "");
+        address = Objects.toString(address, "");
+        phoneNumber = Objects.toString(phoneNumber, "");
         %>
 
         <h2>個人情報入力フォーム</h2>
