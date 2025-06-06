@@ -21,10 +21,10 @@ public class ConfirmServlet extends HttpServlet {
         response.setContentType("text/html; charset=UTF-8");
 
         // JSPからのリクエストデータ取得
-        String name = request.getParameter("user_name");
-        String email = request.getParameter("user_email");
-        String address = request.getParameter("user_address");
-        String phone_number = request.getParameter("user_phone_number");
+        String name = request.getParameter("name");
+        String email = request.getParameter("email");
+        String address = request.getParameter("address");
+        String phone_number = request.getParameter("phone_number");
 
 
         // リクエストスコープにデータ保存
