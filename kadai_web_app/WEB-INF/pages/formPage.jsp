@@ -26,25 +26,25 @@
                 <tr>
                     <td>氏名</td>
                     <td>
-                        <input type="text" name="user_name" value=<%= userName %> >
+                        <input type="text" name="name" value=<%= name %> >
                     </td>
                 </tr>
                 <tr>
                     <td>メールアドレス</td>
                     <td>
-                        <input type="text" name="user_email" value=<%= userEmail %> >
+                        <input type="text" name="email" value=<%= email %> >
                     </td>
                 </tr>
                 <tr>
                     <td>住所</td>
                     <td>
-                        <input type="text" name="user_address" value=<%= userAddress %> >
+                        <input type="text" name="address" value=<%= address %> >
                     </td>
                 </tr>
                 <tr>
                     <td>電話番号</td>
                     <td>
-                        <input type="text" name="user_phone_number" value=<%= userPhoneNumber %> >
+                        <input type="text" name="phone_number" value=<%= phoneNumber %> >
                     </td>
                 </tr>
             </table>
